@@ -5,12 +5,12 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Hero = () => {
   return (
-    <section id="home" className="relative w-full min-h-screen flex items-center justify-center pt-20 overflow-hidden">
+    <section id="home" className="relative w-full min-h-[100dvh] flex items-center justify-center overflow-hidden pt-12 md:pt-0">
       {/* Background gradients */}
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-cyan-600/20 rounded-full blur-[120px] pointer-events-none"></div>
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-blue-600/20 rounded-full blur-[120px] pointer-events-none"></div>
 
-      <div className="max-w-7xl mx-auto px-6 md:px-12 w-full flex flex-col items-start gap-6 relative z-10">
+      <div className="max-w-7xl mx-auto px-6 md:px-12 w-full flex flex-col items-start gap-4 md:gap-6 relative z-10">
         
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -80,7 +80,7 @@ const Hero = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1, duration: 1 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
+        className="absolute bottom-6 md:bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
       >
         <span className="text-sm text-gray-500 uppercase tracking-widest">Scroll</span>
         <ChevronDown size={20} className="text-gray-500 animate-bounce" />
