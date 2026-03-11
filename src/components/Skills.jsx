@@ -4,8 +4,13 @@ import { motion } from 'framer-motion';
 const Skills = () => {
   const categories = [
     {
+      title: "Programming Languages",
+      skills: ["C++", "Java", "Python"],
+      color: "from-orange-400 to-red-500"
+    },
+    {
       title: "Frontend",
-      skills: ["React.js", "JavaScript", "UI Component Development", "Tailwind CSS", "Framer Motion"],
+      skills: ["React.js", "JavaScript", "HTML", "CSS", "Tailwind CSS"],
       color: "from-cyan-400 to-blue-500"
     },
     {
@@ -17,11 +22,6 @@ const Skills = () => {
       title: "Database",
       skills: ["MySQL", "SQL Query Optimization", "Firebase"],
       color: "from-purple-400 to-pink-500"
-    },
-    {
-      title: "Other / Tools",
-      skills: ["File Ingestion Pipelines", "Full-Stack Architecture", "Flutter"],
-      color: "from-orange-400 to-red-500"
     }
   ];
 

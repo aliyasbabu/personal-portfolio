@@ -72,29 +72,7 @@ const Hero = () => {
           </a>
         </motion.div>
 
-        <motion.div 
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 0.8 }}
-          className="flex gap-6 mt-8 md:mt-12 items-center text-gray-400 justify-center sm:justify-start w-full sm:w-auto"
-        >
-          <a 
-            href="https://www.linkedin.com/in/aliyas-babu-a62b97147/" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="hover:text-cyan-400 transition-colors p-4 md:p-3 bg-white/5 rounded-full hover:bg-white/10 border border-white/10 hover:border-cyan-500/30"
-            aria-label="LinkedIn Profile"
-          >
-            <Linkedin size={24} className="md:w-6 md:h-6 w-7 h-7" />
-          </a>
-          <a 
-            href="mailto:aliyasbabu2@gmail.com" 
-            className="hover:text-cyan-400 transition-colors p-4 md:p-3 bg-white/5 rounded-full hover:bg-white/10 border border-white/10 hover:border-cyan-500/30"
-            aria-label="Email Contact"
-          >
-            <Mail size={24} className="md:w-6 md:h-6 w-7 h-7" />
-          </a>
-        </motion.div>
+
 
       </div>
 
